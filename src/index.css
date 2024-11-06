@@ -1,13 +1,17 @@
-body {
+/* index.css or App.css */
+body, html, #root, .App {
+  height: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.CanvasContainer {
+  height: 85vh;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+.CanvasContainer > * {
+  height: 100%;
+  width: 100%;
 }

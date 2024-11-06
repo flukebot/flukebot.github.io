@@ -1,0 +1,301 @@
+{
+  "nodes": [
+    {
+      "id": "1",
+      "label": "LayerForge",
+      "x": 150,
+      "y": 50,
+      "color": "rgb(0,192,255)"
+    },
+    {
+      "id": "1-desc",
+      "label": "Description: Blueprint Model - Main struct containing the model and related functions.",
+      "x": 150,
+      "y": 100,
+      "color": "rgb(0,100,200)"
+    },
+    {
+      "id": "1-type",
+      "label": "Type: Goal",
+      "x": 50,
+      "y": 50,
+      "color": "rgb(100,100,255)"
+    },
+    {
+      "id": "1-status",
+      "label": "Status: In Progress",
+      "x": 250,
+      "y": 50,
+      "color": "rgb(255,165,0)"
+    },
+
+    {
+      "id": "2",
+      "label": "Layered Architecture",
+      "x": 150,
+      "y": 150,
+      "color": "rgb(0,192,255)"
+    },
+    {
+      "id": "2-desc",
+      "label": "Description: Network Config - Configuration for layers, neurons, and connections.",
+      "x": 150,
+      "y": 200,
+      "color": "rgb(0,100,200)"
+    },
+    {
+      "id": "2-type",
+      "label": "Type: Goal",
+      "x": 50,
+      "y": 150,
+      "color": "rgb(100,100,255)"
+    },
+    {
+      "id": "2-status",
+      "label": "Status: Completed",
+      "x": 250,
+      "y": 150,
+      "color": "rgb(34,139,34)"
+    },
+
+    {
+      "id": "3",
+      "label": "Evolutionary Refinement",
+      "x": 400,
+      "y": 150,
+      "color": "rgb(0,192,255)"
+    },
+    {
+      "id": "3-desc",
+      "label": "Description: Neurons & Connections - Defines neurons, activation types, and connections.",
+      "x": 400,
+      "y": 200,
+      "color": "rgb(0,100,200)"
+    },
+    {
+      "id": "3-type",
+      "label": "Type: Goal",
+      "x": 300,
+      "y": 150,
+      "color": "rgb(100,100,255)"
+    },
+    {
+      "id": "3-status",
+      "label": "Status: In Progress",
+      "x": 500,
+      "y": 150,
+      "color": "rgb(255,165,0)"
+    },
+
+    {
+      "id": "4",
+      "label": "Flexible Optimization",
+      "x": 650,
+      "y": 150,
+      "color": "rgb(0,192,255)"
+    },
+    {
+      "id": "4-desc",
+      "label": "Description: WebAssembly Integration - Wrap Blueprint methods for JavaScript access via WASM.",
+      "x": 650,
+      "y": 200,
+      "color": "rgb(0,100,200)"
+    },
+    {
+      "id": "4-type",
+      "label": "Type: Goal",
+      "x": 550,
+      "y": 150,
+      "color": "rgb(100,100,255)"
+    },
+    {
+      "id": "4-status",
+      "label": "Status: In Progress",
+      "x": 750,
+      "y": 150,
+      "color": "rgb(255,165,0)"
+    },
+
+    {
+      "id": "5",
+      "label": "Resilient Generative Engine",
+      "x": 150,
+      "y": 300,
+      "color": "rgb(0,192,255)"
+    },
+    {
+      "id": "5-desc",
+      "label": "Description: Layer Exploration - Implement layer-by-layer exploration for incremental learning.",
+      "x": 150,
+      "y": 350,
+      "color": "rgb(0,100,200)"
+    },
+    {
+      "id": "5-type",
+      "label": "Type: Goal",
+      "x": 50,
+      "y": 300,
+      "color": "rgb(100,100,255)"
+    },
+    {
+      "id": "5-status",
+      "label": "Status: Not Started",
+      "x": 250,
+      "y": 300,
+      "color": "rgb(255,69,0)"
+    },
+
+    {
+      "id": "6",
+      "label": "Sharded Processing",
+      "x": 400,
+      "y": 300,
+      "color": "rgb(0,192,255)"
+    },
+    {
+      "id": "6-desc",
+      "label": "Description: Data Ingestion & Output Tracking - Redo data loading, expected output tracking, and data learned.",
+      "x": 400,
+      "y": 350,
+      "color": "rgb(0,100,200)"
+    },
+    {
+      "id": "6-type",
+      "label": "Type: Goal",
+      "x": 300,
+      "y": 300,
+      "color": "rgb(100,100,255)"
+    },
+    {
+      "id": "6-status",
+      "label": "Status: Not Started",
+      "x": 500,
+      "y": 300,
+      "color": "rgb(255,69,0)"
+    },
+
+    {
+      "id": "7",
+      "label": "JSON-Based Configurations",
+      "x": 650,
+      "y": 300,
+      "color": "rgb(0,192,255)"
+    },
+    {
+      "id": "7-desc",
+      "label": "Description: LayerForgeWasmBuilder - JavaScript interface for WASM model functions.",
+      "x": 650,
+      "y": 350,
+      "color": "rgb(0,100,200)"
+    },
+    {
+      "id": "7-type",
+      "label": "Type: Component",
+      "x": 550,
+      "y": 300,
+      "color": "rgb(100,100,255)"
+    },
+    {
+      "id": "7-status",
+      "label": "Status: In Progress",
+      "x": 750,
+      "y": 300,
+      "color": "rgb(255,165,0)"
+    },
+
+    {
+      "id": "8",
+      "label": "Neuron Mapping",
+      "x": 150,
+      "y": 450,
+      "color": "rgb(0,192,255)"
+    },
+    {
+      "id": "8-desc",
+      "label": "Description: Testing & Evaluation - Track training/test accuracy and set forgiveness thresholds.",
+      "x": 150,
+      "y": 500,
+      "color": "rgb(0,100,200)"
+    },
+    {
+      "id": "8-type",
+      "label": "Type: Goal",
+      "x": 50,
+      "y": 450,
+      "color": "rgb(100,100,255)"
+    },
+    {
+      "id": "8-status",
+      "label": "Status: Not Started",
+      "x": 250,
+      "y": 450,
+      "color": "rgb(255,69,0)"
+    },
+
+    {
+      "id": "9",
+      "label": "Distributed Computing",
+      "x": 400,
+      "y": 450,
+      "color": "rgb(0,192,255)"
+    },
+    {
+      "id": "9-desc",
+      "label": "Description: Facilitate parallel and distributed processing of tasks across multiple nodes.",
+      "x": 400,
+      "y": 500,
+      "color": "rgb(0,100,200)"
+    },
+    {
+      "id": "9-type",
+      "label": "Type: Goal",
+      "x": 300,
+      "y": 450,
+      "color": "rgb(100,100,255)"
+    },
+    {
+      "id": "9-status",
+      "label": "Status: In Progress",
+      "x": 500,
+      "y": 450,
+      "color": "rgb(255,165,0)"
+    }
+  ],
+  "links": [
+    { "source": "1", "target": "1-desc" },
+    { "source": "1", "target": "1-type" },
+    { "source": "1", "target": "1-status" },
+
+    { "source": "2", "target": "2-desc" },
+    { "source": "2", "target": "2-type" },
+    { "source": "2", "target": "2-status" },
+
+    { "source": "3", "target": "3-desc" },
+    { "source": "3", "target": "3-type" },
+    { "source": "3", "target": "3-status" },
+
+    { "source": "4", "target": "4-desc" },
+    { "source": "4", "target": "4-type" },
+    { "source": "4", "target": "4-status" },
+
+    { "source": "5", "target": "5-desc" },
+    { "source": "5", "target": "5-type" },
+    { "source": "5", "target": "5-status" },
+
+    { "source": "6", "target": "6-desc" },
+    { "source": "6", "target": "6-type" },
+    { "source": "6", "target": "6-status" },
+
+    { "source": "7", "target": "7-desc" },
+    { "source": "7", "target": "7-type" },
+    { "source": "7", "target": "7-status" },
+
+    { "source": "8", "target": "8-desc" },
+    { "source": "8", "target": "8-type" },
+    { "source": "8", "target": "8-status" },
+
+    { "source": "9", "target": "9-desc" },
+    { "source": "9", "target": "9-type" },
+    { "source": "9", "target": "9-status" }
+  ]
+}
